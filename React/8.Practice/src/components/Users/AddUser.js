@@ -16,6 +16,7 @@ const AddUser = (props) => {
       //문자열로 되어있기 때문에 +를 붙여주면 숫자로 변환
       return;
     }
+    props.onAddUser(enteredUsername, enteredAge);
     setEnteredUsername("");
     setEnteredAge("");
   };
