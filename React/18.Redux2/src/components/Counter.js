@@ -1,7 +1,7 @@
 // import { Component } from "react";
 import classes from "./Counter.module.css";
 import { useSelector, useDispatch } from "react-redux";
-import { counterActions } from "../sotre";
+import { counterActions } from "../sotre/counter";
 
 const Counter = () => {
   const dispatch = useDispatch();
