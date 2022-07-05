@@ -41,6 +41,7 @@ class Users extends Component {
 //   const toggleUsersHandler = () => {
 //     setShowUsers((curState) => !curState);
 //   };
+
 //   const usersList = (
 //     <ul>
 //       {DUMMY_USERS.map((user) => (
@@ -49,6 +50,14 @@ class Users extends Component {
 //     </ul>
 //   );
 
+//   return (
+//     <div className={classes.users}>
+//       <button onClick={toggleUsersHandler}>
+//         {showUsers ? 'Hide' : 'Show'} Users
+//       </button>
+//       {showUsers && usersList}
+//     </div>
+//   );
 // };
 
 export default Users;
