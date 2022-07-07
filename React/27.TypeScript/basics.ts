@@ -22,10 +22,12 @@ let hobbies: string[];
 
 hobbies = ["Sports", "Cooking"];
 
-let person: {
+type Person = {
   name: string;
   age: number;
 };
+
+let person: Person;
 
 person = {
   name: "Max",
@@ -37,13 +39,20 @@ person = {
 // };
 
 //객체 배열
-let people: {
-  name: string;
-  age: number;
-}[];
+let people: Person[];
 
 //Type inference
 
 let course: string | number = "React - The Complete Guide";
 
 course = 12341;
+
+//Functions & types
+
+function add(a: number, b: number) {
+  return a + b;
+}
+
+function printOutput(value: any) {
+  console.log(value);
+}
